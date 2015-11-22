@@ -1,0 +1,29 @@
+﻿Build started 11/11/2014 9:17:18 AM.
+     1>Project "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\CudaNeuralNetwork\CudaNeuralNetwork.vcxproj" on node 2 (Build target(s)).
+     1>CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\nick\AppData\Local\Temp\tmpaab4fa4de44b45b2aa4606675522545f.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"I:\Libraries\SFML-2.1_vis_studio\src\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\CudaNeuralNetwork\kernel.cu"
+         
+         I:\nick\Documents\VisualStudio\CudaNeuralNetwork\CudaNeuralNetwork>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"I:\Libraries\SFML-2.1_vis_studio\src\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\CudaNeuralNetwork\kernel.cu" 
+         kernel.cu
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"I:\Libraries\SFML-2.1_vis_studio\src\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\CudaNeuralNetwork.exe" /INCREMENTAL /NOLOGO /LIBPATH:"I:\Libraries\SFML-2.1_vis_studio\lib\Release" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\CudaNeuralNetwork.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\CudaNeuralNetwork.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\main.obj
+         CudaNeuralNetwork.vcxproj -> I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\CudaNeuralNetwork.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+                 2 file(s) copied.
+     1>Done Building Project "I:\nick\Documents\VisualStudio\CudaNeuralNetwork\CudaNeuralNetwork\CudaNeuralNetwork.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.93
